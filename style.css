@@ -1,0 +1,55 @@
+body{
+    padding: 2rem;
+    max-width: 1140px;
+    text-align: justify;
+}
+
+.titre{
+    margin-bottom: 1em;
+}
+.espacement{
+    margin-bottom: 2em;
+}
+
+.tableau{
+    padding:2em;
+}
+.tableau>table{
+    width: 100%;
+}
+
+.tableau>table tr>th{
+    text-align: center;
+}
+
+.tableau table tr :nth-child(1),
+.tableau table tr :nth-child(4){
+    width: 5%;
+    text-align: center;
+    vertical-align:middle;
+    padding: 0 2em;
+    /* background-color: blue !important; */
+}
+
+.tableau table tr :nth-child(2),
+.tableau table tr :nth-child(5){
+    width: 35%;
+    /* background-color: blue !important; */
+}
+.tableau table tr :nth-child(3),
+.tableau table tr :nth-child(6){
+    width: 10%;
+    /* background-color: blue !important; */
+}
+
+.variableOutput{
+    font-weight: 700;    
+}
+
+.outputSentence{
+    margin-bottom: .75em;
+}
+
+label{
+    width: 100% !important;
+}
